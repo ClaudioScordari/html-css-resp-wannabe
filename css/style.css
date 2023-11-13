@@ -138,3 +138,41 @@ img {
         width: 100%;
     }
 }
+
+/* CSS MOBILE  */
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        padding: 40px 0;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .steps .col {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin: 0;
+    }
+
+    .why-us .col {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+}
